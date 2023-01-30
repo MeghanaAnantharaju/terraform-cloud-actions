@@ -18,9 +18,9 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "curiositycorp"
+    organization = "meghana-tf"
     workspaces {
-      name = "test-env"
+      name = "gh-actions-demo"
     }
   }
 }
