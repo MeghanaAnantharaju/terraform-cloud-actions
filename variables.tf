@@ -1,6 +1,6 @@
-variable "cidr_block_vpc" {
-  type = string
-}
+# variable "cidr_block_vpc" {
+#   type = string
+# }
 variable "env" {
   default = "Prod"
 }
@@ -8,9 +8,9 @@ variable "vpc_name" {
   type    = string
   default = "PrimeStore_vpc"
 }
-variable "public_sn_cidr" {
-  type = list(any)
-}
+# variable "public_sn_cidr" {
+#   type = list(any)
+# }
 variable "webServerDesc" {
   type    = string
   default = "Allows HTTP from Application-load-balancer and SSH from anywhere"
@@ -22,7 +22,7 @@ variable "instance_count" {
 variable "repo_name" {
   default = "MeghanaAnantharaju/terraform-cloud-actions"
 }
-variable "pub_key" {}
+# variable "pub_key" {}
 variable "ami_id" {}
 
 #======> AutoScaling Group Configuration (Stand-By)<======
