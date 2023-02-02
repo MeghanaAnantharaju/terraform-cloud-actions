@@ -36,7 +36,7 @@ jobs:
         
       - name: Plan the Terraform configuration
         id: plan
-        if: github.event_name == 'pull_request'
+        #if: github.event_name == 'pull_request'
         run: terraform plan
         continue-on-error: true
         
