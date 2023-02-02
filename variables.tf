@@ -23,7 +23,9 @@ variable "repo_name" {
   default = "MeghanaAnantharaju/terraform-cloud-actions"
 }
 # variable "pub_key" {}
-variable "ami_id" {}
+variable "ami_id" {
+  default = "ami-0aa7d40eeae50c9a9"
+}
 
 #======> AutoScaling Group Configuration (Stand-By)<======
 
